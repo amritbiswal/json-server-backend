@@ -6,6 +6,18 @@
       "description": "super store"
     }
   ],
+  "projects": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "name": "Build a React App"
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "name": "Create a Form"
+    }
+  ],
   "tasks": [
     {
       "id": 1,
