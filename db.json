@@ -1,534 +1,2411 @@
 {
-  "products": [
+  "dashboard-stats": {
+    "id": 1,
+    "totalProducts": 20,
+    "totalOrders": 5,
+    "totalCustomers": 3,
+    "totalRevenue": 1185.8,
+    "pendingOrders": 2,
+    "lowStockProducts": 3,
+    "lastUpdated": "2026-01-06T10:00:00Z"
+  },
+  "recent-orders": [
     {
-      "id": 1,
-      "name": "Classic Running Shoes",
-      "brand": "Nike",
-      "price": 89.99,
-      "sizes": [
-        { "size": 8, "stock": 10 },
-        { "size": 9, "stock": 15 },
-        { "size": 10, "stock": 20 },
-        { "size": 11, "stock": 12 },
-        { "size": 12, "stock": 8 }
-      ],
-      "colors": ["Black", "White", "Grey"],
-      "primaryColor": "Black",
-      "category": "Running",
-      "images": [
-        "https://via.placeholder.com/600x600?text=Running+Shoes+1",
-        "https://via.placeholder.com/600x600?text=Running+Shoes+2",
-        "https://via.placeholder.com/600x600?text=Running+Shoes+3"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1724921196547-08aee1bab2da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JTIybmFtZSUyMiUzQSUyMCUyMkNsYXNzaWMlMjBSdW5uaW5nJTIwU2hvZXMlMjIlMkMlMjAlMjJicmFuZCUyMiUzQSUyMCUyMk5pa2UlMjIlMkN8ZW58MHx8MHx8fDA%3D",
-      "description": "Lightweight running shoes with excellent cushioning for long-distance runs.",
-      "features": ["Breathable mesh", "Cushioned sole", "Lightweight design"],
-      "totalStock": 65,
-      "isActive": true,
-      "averageRating": 4.5,
-      "totalReviews": 120,
-      "createdAt": "2025-01-01T00:00:00Z",
-      "updatedAt": "2025-12-15T10:30:00Z"
-    },
-    {
-      "id": 2,
-      "name": "Air Comfort Sneakers",
-      "brand": "Adidas",
-      "price": 120.00,
-      "sizes": [
-        { "size": 7, "stock": 8 },
-        { "size": 8, "stock": 12 },
-        { "size": 9, "stock": 15 },
-        { "size": 10, "stock": 10 },
-        { "size": 11, "stock": 5 }
-      ],
-      "colors": ["White", "Black", "Blue"],
-      "primaryColor": "White",
-      "category": "Casual",
-      "images": [
-        "https://via.placeholder.com/600x600?text=Sneakers+1",
-        "https://via.placeholder.com/600x600?text=Sneakers+2"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1746206751627-c9db5b5fa03e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QWRpZGFzJTIwQWlyJTIwQ29tZm9ydCUyMFNuZWFrZXJzfGVufDB8fDB8fHww",
-      "description": "Stylish casual sneakers perfect for everyday wear.",
-      "features": ["Premium leather", "Air cushioning", "Classic design"],
-      "totalStock": 50,
-      "isActive": true,
-      "averageRating": 4.8,
-      "totalReviews": 95,
-      "createdAt": "2025-01-05T00:00:00Z",
-      "updatedAt": "2025-12-10T14:20:00Z"
-    },
-    {
-      "id": 3,
-      "name": "Professional Basketball Shoes",
-      "brand": "Jordan",
-      "price": 175.50,
-      "sizes": [
-        { "size": 9, "stock": 0 },
-        { "size": 10, "stock": 0 },
-        { "size": 11, "stock": 0 },
-        { "size": 12, "stock": 0 },
-        { "size": 13, "stock": 0 }
-      ],
-      "colors": ["Red", "Black"],
-      "primaryColor": "Red",
-      "category": "Basketball",
-      "images": [
-        "https://via.placeholder.com/600x600?text=Basketball+1"
-      ],
-      "thumbnail": "https://images.unsplash.com/photo-1656335362192-2bc9051b1824?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Sm9yZGFucyUyMFByb2Zlc3Npb25hbCUyMEJhc2tldGJhbGwlMjBTaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
-      "description": "High-performance basketball shoes with superior ankle support.",
-      "features": ["High-top design", "Ankle support", "Superior grip"],
-      "totalStock": 0,
-      "isActive": false,
-      "averageRating": 4.9,
-      "totalReviews": 230,
-      "createdAt": "2025-01-10T00:00:00Z",
-      "updatedAt": "2025-12-18T09:00:00Z"
+      "id": 5,
+      "orderNumber": "ORD-2025-0005",
+      "customerName": "Jane Smith",
+      "customerEmail": "jane@example.com",
+      "total": 236.5,
+      "status": "pending",
+      "itemCount": 2,
+      "orderDate": "2025-01-06T18:00:00.000Z"
     },
     {
       "id": 4,
-      "name": "Trail Hiking Boots",
-      "brand": "Columbia",
-      "price": 140.00,
-      "sizes": [
-        { "size": 8, "stock": 7 },
-        { "size": 9, "stock": 10 },
-        { "size": 10, "stock": 8 },
-        { "size": 11, "stock": 6 }
-      ],
-      "colors": ["Brown", "Black"],
-      "primaryColor": "Brown",
-      "category": "Hiking",
-      "images": [
-        "https://via.placeholder.com/600x600?text=Hiking+Boots+1",
-        "https://via.placeholder.com/600x600?text=Hiking+Boots+2"
-      ],
-      "thumbnail": "https://media.istockphoto.com/id/1422989430/fr/photo/chaussures-de-randonn%C3%A9e-en-cuir-marchant-sur-un-sentier-de-montagne.webp?a=1&b=1&s=612x612&w=0&k=20&c=MwWx6hROCeIyJnfkGHlaNKI_9IDtBWft5mqDIEhwD1Q=",
-      "description": "Waterproof hiking boots designed for rugged terrain.",
-      "features": ["Waterproof", "Durable sole", "Ankle support"],
-      "totalStock": 31,
-      "isActive": true,
-      "averageRating": 4.6,
-      "totalReviews": 78,
-      "createdAt": "2025-01-15T00:00:00Z",
-      "updatedAt": "2025-12-12T16:45:00Z"
-    }
-  ],
-  "categories": [
-    { 
-      "id": 1, 
-      "name": "Running", 
-      "slug": "running",
-      "description": "Running and jogging shoes",
-      "image": "https://via.placeholder.com/400x200?text=Running",
-      "count": 2,
-      "isActive": true
+      "orderNumber": "ORD-2025-0004",
+      "customerName": "John Doe",
+      "customerEmail": "john@example.com",
+      "total": 148.5,
+      "status": "pending",
+      "itemCount": 1,
+      "orderDate": "2025-01-06T16:20:00.000Z"
     },
-    { 
-      "id": 2, 
-      "name": "Casual", 
-      "slug": "casual",
-      "description": "Everyday casual footwear",
-      "image": "https://via.placeholder.com/400x200?text=Casual",
-      "count": 2,
-      "isActive": true
+    {
+      "id": 3,
+      "orderNumber": "ORD-2025-0003",
+      "customerName": "Mike Johnson",
+      "customerEmail": "mike@example.com",
+      "total": 294.8,
+      "status": "processing",
+      "itemCount": 2,
+      "orderDate": "2025-01-05T14:45:00.000Z"
     },
-    { 
-      "id": 3, 
-      "name": "Basketball", 
-      "slug": "basketball",
-      "description": "Basketball court shoes",
-      "image": "https://via.placeholder.com/400x200?text=Basketball",
-      "count": 1,
-      "isActive": true
+    {
+      "id": 2,
+      "orderNumber": "ORD-2025-0002",
+      "customerName": "Jane Smith",
+      "customerEmail": "jane@example.com",
+      "total": 209,
+      "status": "shipped",
+      "itemCount": 1,
+      "orderDate": "2025-01-04T09:15:00.000Z"
     },
-    { 
-      "id": 4, 
-      "name": "Hiking", 
-      "slug": "hiking",
-      "description": "Outdoor hiking boots",
-      "image": "https://via.placeholder.com/400x200?text=Hiking",
-      "count": 1,
-      "isActive": true
-    }
-  ],
-  "admins": [
     {
       "id": 1,
-      "username": "admin",
-      "email": "admin@shoestore.com",
-      "password": "admin123",
-      "role": "super_admin",
-      "name": "Store Admin",
-      "phone": "+1-555-9999",
-      "avatar": "https://via.placeholder.com/150?text=Admin",
-      "isActive": true,
-      "createdAt": "2025-01-01T00:00:00Z",
-      "lastLogin": "2025-12-18T08:00:00Z"
+      "orderNumber": "ORD-2025-0001",
+      "customerName": "John Doe",
+      "customerEmail": "john@example.com",
+      "total": 297,
+      "status": "delivered",
+      "itemCount": 3,
+      "orderDate": "2025-01-02T11:30:00.000Z"
+    }
+  ],
+  "store": {
+    "id": 1,
+    "name": "ShoeEasy",
+    "tagline": "Step into Style",
+    "description": "Your one-stop destination for premium footwear",
+    "type": "Footwear Retail",
+    "logo": "https://via.placeholder.com/200x200?text=ShoeEasy",
+    "address": {
+      "street": "789 Commerce Blvd",
+      "suite": "Suite 100",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "contact": {
+      "email": "info@shoeeasy.com",
+      "phone": "+1-555-SHOES",
+      "supportEmail": "support@shoeeasy.com"
+    },
+    "license": {
+      "number": "RET-2025-NY-12345",
+      "type": "Retail Business License",
+      "issuedBy": "NY Department of State",
+      "issuedDate": "2025-01-01",
+      "expiryDate": "2026-01-01",
+      "status": "active"
+    },
+    "businessHours": {
+      "monday": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tuesday": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wednesday": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thursday": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "friday": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "saturday": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sunday": {
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/shoeeasy",
+      "instagram": "https://instagram.com/shoeeasy",
+      "twitter": "https://twitter.com/shoeeasy"
+    },
+    "policies": {
+      "returnDays": 30,
+      "freeShippingThreshold": 100,
+      "taxRate": 0.1
+    },
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-01-06T10:00:00Z"
+  },
+  "admin-dashboard": {
+    "id": 1,
+    "lastUpdated": "2026-01-06T10:00:00Z",
+    "stockSettings": {
+      "lowStockThreshold": 30,
+      "criticalStockThreshold": 10,
+      "autoNotifyOnLowStock": true
+    },
+    "lowStockAlerts": [
+      {
+        "productId": 15,
+        "productName": "Nike Air Jordan 1 Mid",
+        "brand": "Nike",
+        "totalStock": 28,
+        "status": "low_stock",
+        "alertLevel": "warning",
+        "lastChecked": "2026-01-06T10:00:00Z"
+      },
+      {
+        "productId": 20,
+        "productName": "Nike Mercurial Superfly 9",
+        "brand": "Nike",
+        "totalStock": 28,
+        "status": "low_stock",
+        "alertLevel": "warning",
+        "lastChecked": "2026-01-06T10:00:00Z"
+      },
+      {
+        "productId": 13,
+        "productName": "Nike Dunk Low",
+        "brand": "Nike",
+        "totalStock": 48,
+        "status": "low_stock",
+        "alertLevel": "warning",
+        "lastChecked": "2026-01-06T10:00:00Z"
+      }
+    ],
+    "newlyAddedProducts": [
+      {
+        "productId": 20,
+        "productName": "Nike Mercurial Superfly 9",
+        "brand": "Nike",
+        "addedAt": "2025-01-20T00:00:00.000Z",
+        "category": "Sports"
+      },
+      {
+        "productId": 17,
+        "productName": "Nike Kids Air Max 270",
+        "brand": "Nike",
+        "addedAt": "2025-01-17T00:00:00.000Z",
+        "category": "Kids"
+      },
+      {
+        "productId": 12,
+        "productName": "Adidas Samba OG",
+        "brand": "Adidas",
+        "addedAt": "2025-01-12T00:00:00.000Z",
+        "category": "Casual"
+      },
+      {
+        "productId": 11,
+        "productName": "Nike Zoom Pegasus 40",
+        "brand": "Nike",
+        "addedAt": "2025-01-11T00:00:00.000Z",
+        "category": "Running"
+      },
+      {
+        "productId": 2,
+        "productName": "Adidas Ultraboost 22",
+        "brand": "Adidas",
+        "addedAt": "2025-01-02T00:00:00.000Z",
+        "category": "Running"
+      }
+    ],
+    "onDemandProducts": [
+      {
+        "productId": 8,
+        "productName": "Nike Air Force 1 '07",
+        "brand": "Nike",
+        "demandScore": 98,
+        "totalOrders": 156,
+        "totalReviews": 1024,
+        "averageRating": 4.9,
+        "trend": "high"
+      },
+      {
+        "productId": 15,
+        "productName": "Nike Air Jordan 1 Mid",
+        "brand": "Nike",
+        "demandScore": 95,
+        "totalOrders": 134,
+        "totalReviews": 892,
+        "averageRating": 4.9,
+        "trend": "high"
+      },
+      {
+        "productId": 5,
+        "productName": "Converse Chuck Taylor All Star",
+        "brand": "Converse",
+        "demandScore": 88,
+        "totalOrders": 112,
+        "totalReviews": 892,
+        "averageRating": 4.7,
+        "trend": "stable"
+      },
+      {
+        "productId": 9,
+        "productName": "Adidas Stan Smith",
+        "brand": "Adidas",
+        "demandScore": 82,
+        "totalOrders": 98,
+        "totalReviews": 756,
+        "averageRating": 4.7,
+        "trend": "stable"
+      },
+      {
+        "productId": 13,
+        "productName": "Nike Dunk Low",
+        "brand": "Nike",
+        "demandScore": 80,
+        "totalOrders": 89,
+        "totalReviews": 678,
+        "averageRating": 4.8,
+        "trend": "rising"
+      }
+    ],
+    "inventorySummary": {
+      "totalProducts": 20,
+      "activeProducts": 20,
+      "inactiveProducts": 0,
+      "totalStockUnits": 1454,
+      "lowStockProducts": 3,
+      "outOfStockProducts": 0
+    }
+  },
+  "inventory": [
+    {
+      "id": 1,
+      "productId": 1,
+      "productName": "Nike Air Max 270",
+      "brand": "Nike",
+      "category": "Running",
+      "sku": "NK-AM270-001",
+      "totalStock": 70,
+      "reservedStock": 0,
+      "availableStock": 70,
+      "reorderLevel": 20,
+      "reorderQuantity": 50,
+      "costPrice": 75,
+      "sellingPrice": 150,
+      "supplier": {
+        "name": "Nike Distribution Center",
+        "contactEmail": "orders@nike-dist.com"
+      },
+      "lastRestocked": "2025-01-01T00:00:00.000Z",
+      "status": "in_stock",
+      "updatedAt": "2026-01-06T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "productId": 15,
+      "productName": "Nike Air Jordan 1 Mid",
+      "brand": "Nike",
+      "category": "Sneakers",
+      "sku": "NK-AJ1M-015",
+      "totalStock": 28,
+      "reservedStock": 1,
+      "availableStock": 27,
+      "reorderLevel": 30,
+      "reorderQuantity": 50,
+      "costPrice": 62.5,
+      "sellingPrice": 125,
+      "supplier": {
+        "name": "Nike Distribution Center",
+        "contactEmail": "orders@nike-dist.com"
+      },
+      "lastRestocked": "2025-01-15T00:00:00.000Z",
+      "status": "low_stock",
+      "updatedAt": "2026-01-06T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "productId": 13,
+      "productName": "Nike Dunk Low",
+      "brand": "Nike",
+      "category": "Sneakers",
+      "sku": "NK-DL-013",
+      "totalStock": 48,
+      "reservedStock": 0,
+      "availableStock": 48,
+      "reorderLevel": 30,
+      "reorderQuantity": 40,
+      "costPrice": 57.5,
+      "sellingPrice": 115,
+      "supplier": {
+        "name": "Nike Distribution Center",
+        "contactEmail": "orders@nike-dist.com"
+      },
+      "lastRestocked": "2025-01-13T00:00:00.000Z",
+      "status": "low_stock",
+      "updatedAt": "2026-01-06T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "productId": 20,
+      "productName": "Nike Mercurial Superfly 9",
+      "brand": "Nike",
+      "category": "Sports",
+      "sku": "NK-MS9-020",
+      "totalStock": 28,
+      "reservedStock": 0,
+      "availableStock": 28,
+      "reorderLevel": 20,
+      "reorderQuantity": 30,
+      "costPrice": 137.5,
+      "sellingPrice": 275,
+      "supplier": {
+        "name": "Nike Distribution Center",
+        "contactEmail": "orders@nike-dist.com"
+      },
+      "lastRestocked": "2025-01-20T00:00:00.000Z",
+      "status": "low_stock",
+      "updatedAt": "2026-01-06T10:00:00Z"
+    }
+  ],
+  "revenue": {
+    "id": 1,
+    "summary": {
+      "totalRevenue": 1185.8,
+      "totalOrders": 5,
+      "averageOrderValue": 237.16,
+      "totalItemsSold": 8,
+      "totalCustomers": 3,
+      "conversionRate": 3.2,
+      "lastUpdated": "2026-01-06T10:00:00Z"
+    },
+    "daily": [
+      {
+        "date": "2026-01-06",
+        "revenue": 385,
+        "orders": 2,
+        "itemsSold": 3
+      },
+      {
+        "date": "2026-01-05",
+        "revenue": 294.8,
+        "orders": 1,
+        "itemsSold": 2
+      },
+      {
+        "date": "2026-01-04",
+        "revenue": 209,
+        "orders": 1,
+        "itemsSold": 1
+      },
+      {
+        "date": "2026-01-02",
+        "revenue": 297,
+        "orders": 1,
+        "itemsSold": 3
+      }
+    ],
+    "weekly": [
+      {
+        "weekStart": "2025-12-30",
+        "weekEnd": "2026-01-05",
+        "revenue": 800.8,
+        "orders": 3,
+        "itemsSold": 6
+      },
+      {
+        "weekStart": "2026-01-06",
+        "weekEnd": "2026-01-12",
+        "revenue": 385,
+        "orders": 2,
+        "itemsSold": 3
+      }
+    ],
+    "monthly": [
+      {
+        "month": "January",
+        "year": 2025,
+        "revenue": 1185.8,
+        "orders": 5,
+        "itemsSold": 8,
+        "topSellingProduct": {
+          "productId": 1,
+          "productName": "Nike Air Max 270",
+          "unitsSold": 1,
+          "revenue": 150
+        }
+      }
+    ],
+    "byCategory": [
+      {
+        "categoryId": 1,
+        "categoryName": "Running",
+        "revenue": 540,
+        "orders": 3,
+        "itemsSold": 3,
+        "percentage": 45.5
+      },
+      {
+        "categoryId": 5,
+        "categoryName": "Sneakers",
+        "revenue": 235,
+        "orders": 2,
+        "itemsSold": 3,
+        "percentage": 19.8
+      },
+      {
+        "categoryId": 6,
+        "categoryName": "Boots",
+        "revenue": 198,
+        "orders": 1,
+        "itemsSold": 1,
+        "percentage": 16.7
+      },
+      {
+        "categoryId": 2,
+        "categoryName": "Casual",
+        "revenue": 155,
+        "orders": 2,
+        "itemsSold": 2,
+        "percentage": 13.1
+      }
+    ],
+    "byBrand": [
+      {
+        "brandId": 1,
+        "brandName": "Nike",
+        "revenue": 535,
+        "orders": 4,
+        "itemsSold": 4,
+        "percentage": 45.1
+      },
+      {
+        "brandId": 2,
+        "brandName": "Adidas",
+        "revenue": 275,
+        "orders": 2,
+        "itemsSold": 2,
+        "percentage": 23.2
+      },
+      {
+        "brandId": 8,
+        "brandName": "Timberland",
+        "revenue": 198,
+        "orders": 1,
+        "itemsSold": 1,
+        "percentage": 16.7
+      },
+      {
+        "brandId": 6,
+        "brandName": "Converse",
+        "revenue": 110,
+        "orders": 1,
+        "itemsSold": 2,
+        "percentage": 9.3
+      },
+      {
+        "brandId": 7,
+        "brandName": "Vans",
+        "revenue": 70,
+        "orders": 1,
+        "itemsSold": 1,
+        "percentage": 5.9
+      }
+    ],
+    "byPaymentMethod": [
+      {
+        "method": "credit_card",
+        "revenue": 740.3,
+        "orders": 3,
+        "percentage": 62.4
+      },
+      {
+        "method": "paypal",
+        "revenue": 445.5,
+        "orders": 2,
+        "percentage": 37.6
+      }
+    ]
+  },
+  "admin-notifications": [
+    {
+      "id": 1,
+      "type": "new_order",
+      "priority": "high",
+      "title": "New Order Received",
+      "message": "Order #ORD-2025-0005 placed by Jane Smith - $236.50",
+      "data": {
+        "orderId": 5,
+        "orderNumber": "ORD-2025-0005",
+        "customerId": 3,
+        "customerName": "Jane Smith",
+        "total": 236.5,
+        "itemCount": 2
+      },
+      "isRead": false,
+      "createdAt": "2025-01-06T18:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "type": "new_order",
+      "priority": "high",
+      "title": "New Order Received",
+      "message": "Order #ORD-2025-0004 placed by John Doe - $148.50",
+      "data": {
+        "orderId": 4,
+        "orderNumber": "ORD-2025-0004",
+        "customerId": 2,
+        "customerName": "John Doe",
+        "total": 148.5,
+        "itemCount": 1
+      },
+      "isRead": false,
+      "createdAt": "2025-01-06T16:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "type": "low_stock",
+      "priority": "warning",
+      "title": "Low Stock Alert",
+      "message": "Nike Air Jordan 1 Mid is running low (28 units remaining)",
+      "data": {
+        "productId": 15,
+        "productName": "Nike Air Jordan 1 Mid",
+        "currentStock": 28,
+        "threshold": 30
+      },
+      "isRead": true,
+      "createdAt": "2025-01-06T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "type": "low_stock",
+      "priority": "warning",
+      "title": "Low Stock Alert",
+      "message": "Nike Mercurial Superfly 9 is running low (28 units remaining)",
+      "data": {
+        "productId": 20,
+        "productName": "Nike Mercurial Superfly 9",
+        "currentStock": 28,
+        "threshold": 30
+      },
+      "isRead": false,
+      "createdAt": "2025-01-06T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "type": "stock_order",
+      "priority": "info",
+      "title": "Stock Order Shipped",
+      "message": "Stock order for Nike Dunk Low (40 units) has been shipped",
+      "data": {
+        "stockOrderId": 2,
+        "productId": 13,
+        "productName": "Nike Dunk Low",
+        "quantity": 40
+      },
+      "isRead": true,
+      "createdAt": "2025-01-05T09:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "type": "stock_order",
+      "priority": "success",
+      "title": "Stock Order Delivered",
+      "message": "Stock order for Timberland 6-Inch Premium Boot (30 units) delivered",
+      "data": {
+        "stockOrderId": 3,
+        "productId": 7,
+        "productName": "Timberland 6-Inch Premium Boot",
+        "quantity": 30
+      },
+      "isRead": true,
+      "createdAt": "2025-01-05T00:00:00.000Z"
+    }
+  ],
+  "sales-analytics": {
+    "id": 1,
+    "topSellingProducts": [
+      {
+        "productId": 8,
+        "productName": "Nike Air Force 1 '07",
+        "brand": "Nike",
+        "category": "Sneakers",
+        "unitsSold": 156,
+        "revenue": 17160,
+        "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600"
+      },
+      {
+        "productId": 5,
+        "productName": "Converse Chuck Taylor All Star",
+        "brand": "Converse",
+        "category": "Sneakers",
+        "unitsSold": 142,
+        "revenue": 7810,
+        "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600"
+      },
+      {
+        "productId": 15,
+        "productName": "Nike Air Jordan 1 Mid",
+        "brand": "Nike",
+        "category": "Sneakers",
+        "unitsSold": 134,
+        "revenue": 16750,
+        "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600"
+      },
+      {
+        "productId": 9,
+        "productName": "Adidas Stan Smith",
+        "brand": "Adidas",
+        "category": "Casual",
+        "unitsSold": 98,
+        "revenue": 8330,
+        "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600"
+      },
+      {
+        "productId": 1,
+        "productName": "Nike Air Max 270",
+        "brand": "Nike",
+        "category": "Running",
+        "unitsSold": 89,
+        "revenue": 13350,
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+      }
+    ],
+    "salesByGender": [
+      {
+        "gender": "Men",
+        "sales": 485,
+        "revenue": 52350,
+        "percentage": 42
+      },
+      {
+        "gender": "Women",
+        "sales": 312,
+        "revenue": 34320,
+        "percentage": 27
+      },
+      {
+        "gender": "Unisex",
+        "sales": 298,
+        "revenue": 26820,
+        "percentage": 26
+      },
+      {
+        "gender": "Kids",
+        "sales": 56,
+        "revenue": 5600,
+        "percentage": 5
+      }
+    ],
+    "returnsAndRefunds": {
+      "totalReturns": 12,
+      "totalRefundAmount": 1456,
+      "returnRate": 2.4,
+      "topReturnReasons": [
+        {
+          "reason": "Size too small",
+          "count": 5
+        },
+        {
+          "reason": "Size too large",
+          "count": 4
+        },
+        {
+          "reason": "Not as described",
+          "count": 2
+        },
+        {
+          "reason": "Damaged on arrival",
+          "count": 1
+        }
+      ]
+    },
+    "customerInsights": {
+      "newCustomers": 45,
+      "returningCustomers": 78,
+      "averageOrdersPerCustomer": 2.3,
+      "customerRetentionRate": 68.5
+    },
+    "lastUpdated": "2026-01-06T10:00:00Z"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Running",
+      "slug": "running",
+      "description": "High-performance running shoes for all terrains",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "count": 3,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Casual",
+      "slug": "casual",
+      "description": "Comfortable everyday casual shoes",
+      "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400",
+      "count": 6,
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Formal",
+      "slug": "formal",
+      "description": "Elegant formal shoes for business and events",
+      "image": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400",
+      "count": 1,
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "slug": "sports",
+      "description": "Athletic shoes for various sports activities",
+      "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400",
+      "count": 1,
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Sneakers",
+      "slug": "sneakers",
+      "description": "Trendy sneakers for street style",
+      "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=400",
+      "count": 7,
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Boots",
+      "slug": "boots",
+      "description": "Durable boots for all seasons",
+      "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400",
+      "count": 1,
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Sandals",
+      "slug": "sandals",
+      "description": "Comfortable sandals for warm weather",
+      "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400",
+      "count": 1,
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Kids",
+      "slug": "kids",
+      "description": "Fun and durable shoes for children",
+      "image": "https://images.unsplash.com/photo-1555274175-75f79b09d5b8?w=400",
+      "count": 1,
+      "isActive": true
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg"
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Puma_Logo.svg"
+    },
+    {
+      "id": 4,
+      "name": "New Balance",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/New_Balance_logo.svg"
+    },
+    {
+      "id": 5,
+      "name": "Reebok",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Reebok_2019_logo.svg"
+    },
+    {
+      "id": 6,
+      "name": "Converse",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/30/Converse_logo.svg"
+    },
+    {
+      "id": 7,
+      "name": "Vans",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Vans-logo.svg"
+    },
+    {
+      "id": 8,
+      "name": "Timberland",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Timberland_Logo.svg"
     }
   ],
   "users": [
     {
       "id": 1,
-      "username": "johndoe",
-      "email": "john@example.com",
-      "password": "customer123",
-      "role": "customer",
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@shoeeasy.com",
+      "password": "admin123",
+      "role": "admin",
+      "phone": "1234567890",
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "favorites": []
+    },
+    {
+      "id": 2,
       "firstName": "John",
       "lastName": "Doe",
-      "phone": "+1-555-0123",
-      "avatar": "https://via.placeholder.com/150?text=JD",
-      "addresses": [
-        {
-          "id": 1,
-          "label": "Home",
-          "isDefault": true,
-          "street": "123 Main St",
-          "apartment": "Apt 4B",
-          "city": "New York",
-          "state": "NY",
-          "zipCode": "10001",
-          "country": "USA"
-        },
-        {
-          "id": 2,
-          "label": "Work",
-          "isDefault": false,
-          "street": "456 Business Ave",
-          "apartment": "Suite 200",
-          "city": "New York",
-          "state": "NY",
-          "zipCode": "10002",
-          "country": "USA"
-        }
-      ],
-      "isActive": true,
-      "emailVerified": true,
-      "createdAt": "2025-01-15T10:30:00Z",
-      "lastLogin": "2025-12-18T09:15:00Z"
-    },
-    {
-      "id": 2,
-      "username": "janesmith",
-      "email": "jane@example.com",
-      "password": "customer123",
+      "email": "john@example.com",
+      "password": "john123",
       "role": "customer",
-      "firstName": "Jane",
-      "lastName": "Smith",
-      "phone": "+1-555-0124",
-      "avatar": "https://via.placeholder.com/150?text=JS",
-      "addresses": [
-        {
-          "id": 1,
-          "label": "Home",
-          "isDefault": true,
-          "street": "456 Oak Ave",
-          "apartment": "",
-          "city": "Los Angeles",
-          "state": "CA",
-          "zipCode": "90001",
-          "country": "USA"
-        }
-      ],
-      "isActive": true,
-      "emailVerified": true,
-      "createdAt": "2025-02-01T14:20:00Z",
-      "lastLogin": "2025-12-17T16:45:00Z"
-    }
-  ],
-  "favorites": [
-    {
-      "id": 1,
-      "customerId": 1,
-      "productId": 1,
-      "addedAt": "2025-12-01T10:00:00Z"
-    },
-    {
-      "id": 2,
-      "customerId": 1,
-      "productId": 3,
-      "addedAt": "2025-12-05T14:30:00Z"
+      "phone": "9876543210",
+      "favorites": [],
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": "2025-01-05T10:30:00.000Z"
     },
     {
       "id": 3,
-      "customerId": 2,
-      "productId": 2,
-      "addedAt": "2025-12-10T09:15:00Z"
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@example.com",
+      "password": "jane123",
+      "role": "customer",
+      "phone": "5551234567",
+      "favorites": [],
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "createdAt": "2025-01-10T14:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "firstName": "Mike",
+      "lastName": "Johnson",
+      "email": "mike@example.com",
+      "password": "mike123",
+      "role": "customer",
+      "phone": "5559876543",
+      "favorites": [],
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "createdAt": "2025-01-15T09:15:00.000Z"
+    },
+    {
+      "favorites": [],
+      "id": 5
+    },
+    {
+      "firstName": "Amrit",
+      "lastName": "Biswal",
+      "email": "amrit.k.biswal@gmail.com",
+      "password": "Password123",
+      "phone": "+4917655385651",
+      "address": null,
+      "role": "customer",
+      "favorites": [],
+      "createdAt": "2026-01-06T16:46:24.435Z",
+      "id": 6
     }
   ],
-  "cart": [
+  "products": [
     {
       "id": 1,
-      "customerId": 1,
-      "items": [
+      "name": "Nike Air Max 270",
+      "description": "The Nike Air Max 270 delivers visible cushioning under every step with its large Max Air unit. Lightweight and breathable, it's perfect for everyday wear.",
+      "price": 150,
+      "originalPrice": 180,
+      "categoryId": 1,
+      "category": "Running",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Men",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600",
+        "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=600"
+      ],
+      "sizes": [
         {
-          "id": 1,
-          "productId": 2,
-          "name": "Air Comfort Sneakers",
-          "brand": "Adidas",
-          "price": 120.00,
-          "size": 9,
-          "color": "White",
-          "quantity": 1,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Sneakers",
-          "addedAt": "2025-12-17T10:30:00Z"
+          "size": "US 7",
+          "stock": 10
+        },
+        {
+          "size": "US 8",
+          "stock": 15
+        },
+        {
+          "size": "US 9",
+          "stock": 20
+        },
+        {
+          "size": "US 10",
+          "stock": 12
+        },
+        {
+          "size": "US 11",
+          "stock": 8
+        },
+        {
+          "size": "US 12",
+          "stock": 5
         }
       ],
-      "subtotal": 120.00,
-      "updatedAt": "2025-12-17T10:30:00Z"
+      "colors": [
+        "Black/White",
+        "Red/Black",
+        "Blue/White"
+      ],
+      "totalStock": 70,
+      "rating": 4.7,
+      "reviews": 342,
+      "featured": true,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
     },
     {
       "id": 2,
-      "customerId": 2,
-      "items": [
+      "name": "Adidas Ultraboost 22",
+      "description": "Experience incredible energy return with the Adidas Ultraboost 22. Featuring responsive Boost midsole and Primeknit upper for ultimate comfort.",
+      "price": 190,
+      "originalPrice": 190,
+      "categoryId": 1,
+      "category": "Running",
+      "brandId": 2,
+      "brand": "Adidas",
+      "gender": "Men",
+      "images": [
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600",
+        "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=600"
+      ],
+      "sizes": [
         {
-          "id": 1,
-          "productId": 4,
-          "name": "Trail Hiking Boots",
-          "brand": "Columbia",
-          "price": 140.00,
-          "size": 10,
-          "color": "Brown",
-          "quantity": 2,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Hiking+Boots",
-          "addedAt": "2025-12-18T08:45:00Z"
+          "size": "US 7",
+          "stock": 8
+        },
+        {
+          "size": "US 8",
+          "stock": 12
+        },
+        {
+          "size": "US 9",
+          "stock": 15
+        },
+        {
+          "size": "US 10",
+          "stock": 10
+        },
+        {
+          "size": "US 11",
+          "stock": 6
+        },
+        {
+          "size": "US 12",
+          "stock": 4
         }
       ],
-      "subtotal": 280.00,
-      "updatedAt": "2025-12-18T08:45:00Z"
+      "colors": [
+        "Core Black",
+        "Cloud White",
+        "Grey"
+      ],
+      "totalStock": 55,
+      "rating": 4.8,
+      "reviews": 256,
+      "featured": true,
+      "isNew": true,
+      "onSale": false,
+      "createdAt": "2025-01-02T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Puma RS-X",
+      "description": "The Puma RS-X reinvents the classic running system with bold colors and chunky design. Perfect for making a statement.",
+      "price": 110,
+      "originalPrice": 130,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 3,
+      "brand": "Puma",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 5
+        },
+        {
+          "size": "US 7",
+          "stock": 10
+        },
+        {
+          "size": "US 8",
+          "stock": 12
+        },
+        {
+          "size": "US 9",
+          "stock": 15
+        },
+        {
+          "size": "US 10",
+          "stock": 8
+        },
+        {
+          "size": "US 11",
+          "stock": 5
+        }
+      ],
+      "colors": [
+        "White/Blue",
+        "Black/Red",
+        "Grey/Yellow"
+      ],
+      "totalStock": 55,
+      "rating": 4.5,
+      "reviews": 189,
+      "featured": true,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-03T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "New Balance 574",
+      "description": "The iconic New Balance 574 combines heritage style with modern comfort. A versatile classic for any occasion.",
+      "price": 89.99,
+      "originalPrice": 89.99,
+      "categoryId": 2,
+      "category": "Casual",
+      "brandId": 4,
+      "brand": "New Balance",
+      "gender": "Men",
+      "images": [
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 7",
+          "stock": 15
+        },
+        {
+          "size": "US 8",
+          "stock": 20
+        },
+        {
+          "size": "US 9",
+          "stock": 25
+        },
+        {
+          "size": "US 10",
+          "stock": 18
+        },
+        {
+          "size": "US 11",
+          "stock": 12
+        },
+        {
+          "size": "US 12",
+          "stock": 8
+        }
+      ],
+      "colors": [
+        "Grey/Navy",
+        "Black",
+        "Burgundy"
+      ],
+      "totalStock": 98,
+      "rating": 4.6,
+      "reviews": 423,
+      "featured": false,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-04T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Converse Chuck Taylor All Star",
+      "description": "The timeless Converse Chuck Taylor All Star. Classic canvas upper with iconic rubber toe cap and vulcanized sole.",
+      "price": 55,
+      "originalPrice": 65,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 6,
+      "brand": "Converse",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600",
+        "https://images.unsplash.com/photo-1494496195158-c3becb4f2475?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 5",
+          "stock": 10
+        },
+        {
+          "size": "US 6",
+          "stock": 15
+        },
+        {
+          "size": "US 7",
+          "stock": 20
+        },
+        {
+          "size": "US 8",
+          "stock": 25
+        },
+        {
+          "size": "US 9",
+          "stock": 20
+        },
+        {
+          "size": "US 10",
+          "stock": 15
+        },
+        {
+          "size": "US 11",
+          "stock": 10
+        },
+        {
+          "size": "US 12",
+          "stock": 5
+        }
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Red",
+        "Navy"
+      ],
+      "totalStock": 120,
+      "rating": 4.7,
+      "reviews": 892,
+      "featured": true,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-05T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Vans Old Skool",
+      "description": "The Vans Old Skool features the iconic side stripe and durable suede/canvas construction. A skateboarding legend.",
+      "price": 70,
+      "originalPrice": 70,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 7,
+      "brand": "Vans",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 12
+        },
+        {
+          "size": "US 7",
+          "stock": 18
+        },
+        {
+          "size": "US 8",
+          "stock": 22
+        },
+        {
+          "size": "US 9",
+          "stock": 20
+        },
+        {
+          "size": "US 10",
+          "stock": 15
+        },
+        {
+          "size": "US 11",
+          "stock": 10
+        }
+      ],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "All Black"
+      ],
+      "totalStock": 97,
+      "rating": 4.6,
+      "reviews": 654,
+      "featured": false,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-06T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Timberland 6-Inch Premium Boot",
+      "description": "The original Timberland boot. Waterproof leather, padded collar, and rugged lug outsole for all-weather protection.",
+      "price": 198,
+      "originalPrice": 198,
+      "categoryId": 6,
+      "category": "Boots",
+      "brandId": 8,
+      "brand": "Timberland",
+      "gender": "Men",
+      "images": [
+        "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=600",
+        "https://images.unsplash.com/photo-1605812860427-4024433a70fd?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 7",
+          "stock": 8
+        },
+        {
+          "size": "US 8",
+          "stock": 12
+        },
+        {
+          "size": "US 9",
+          "stock": 15
+        },
+        {
+          "size": "US 10",
+          "stock": 12
+        },
+        {
+          "size": "US 11",
+          "stock": 8
+        },
+        {
+          "size": "US 12",
+          "stock": 5
+        }
+      ],
+      "colors": [
+        "Wheat",
+        "Black",
+        "Brown"
+      ],
+      "totalStock": 60,
+      "rating": 4.8,
+      "reviews": 312,
+      "featured": true,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-07T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Nike Air Force 1 '07",
+      "description": "The radiance lives on in the Nike Air Force 1 '07. Classic leather upper with Air-Sole unit for comfort.",
+      "price": 110,
+      "originalPrice": 110,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 10
+        },
+        {
+          "size": "US 7",
+          "stock": 15
+        },
+        {
+          "size": "US 8",
+          "stock": 20
+        },
+        {
+          "size": "US 9",
+          "stock": 25
+        },
+        {
+          "size": "US 10",
+          "stock": 20
+        },
+        {
+          "size": "US 11",
+          "stock": 15
+        },
+        {
+          "size": "US 12",
+          "stock": 10
+        }
+      ],
+      "colors": [
+        "White",
+        "Black",
+        "White/Black"
+      ],
+      "totalStock": 115,
+      "rating": 4.9,
+      "reviews": 1024,
+      "featured": true,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-08T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Adidas Stan Smith",
+      "description": "The legendary Adidas Stan Smith. Clean leather upper with perforated 3-Stripes and signature green heel tab.",
+      "price": 85,
+      "originalPrice": 100,
+      "categoryId": 2,
+      "category": "Casual",
+      "brandId": 2,
+      "brand": "Adidas",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600",
+        "https://images.unsplash.com/photo-1603787081207-362bcef7c144?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 5",
+          "stock": 8
+        },
+        {
+          "size": "US 6",
+          "stock": 12
+        },
+        {
+          "size": "US 7",
+          "stock": 18
+        },
+        {
+          "size": "US 8",
+          "stock": 22
+        },
+        {
+          "size": "US 9",
+          "stock": 18
+        },
+        {
+          "size": "US 10",
+          "stock": 12
+        },
+        {
+          "size": "US 11",
+          "stock": 8
+        }
+      ],
+      "colors": [
+        "White/Green",
+        "White/Navy",
+        "All White"
+      ],
+      "totalStock": 98,
+      "rating": 4.7,
+      "reviews": 756,
+      "featured": false,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-09T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Reebok Classic Leather",
+      "description": "The Reebok Classic Leather delivers timeless style with soft leather upper and cushioned midsole for all-day comfort.",
+      "price": 75,
+      "originalPrice": 75,
+      "categoryId": 2,
+      "category": "Casual",
+      "brandId": 5,
+      "brand": "Reebok",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600",
+        "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 10
+        },
+        {
+          "size": "US 7",
+          "stock": 15
+        },
+        {
+          "size": "US 8",
+          "stock": 18
+        },
+        {
+          "size": "US 9",
+          "stock": 15
+        },
+        {
+          "size": "US 10",
+          "stock": 12
+        },
+        {
+          "size": "US 11",
+          "stock": 8
+        }
+      ],
+      "colors": [
+        "White",
+        "Black",
+        "Grey"
+      ],
+      "totalStock": 78,
+      "rating": 4.5,
+      "reviews": 423,
+      "featured": false,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Nike Zoom Pegasus 40",
+      "description": "Built for long runs, the Nike Zoom Pegasus 40 features responsive Zoom Air cushioning and breathable mesh upper.",
+      "price": 130,
+      "originalPrice": 130,
+      "categoryId": 1,
+      "category": "Running",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Women",
+      "images": [
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 5",
+          "stock": 8
+        },
+        {
+          "size": "US 6",
+          "stock": 12
+        },
+        {
+          "size": "US 7",
+          "stock": 15
+        },
+        {
+          "size": "US 8",
+          "stock": 18
+        },
+        {
+          "size": "US 9",
+          "stock": 12
+        },
+        {
+          "size": "US 10",
+          "stock": 8
+        }
+      ],
+      "colors": [
+        "Pink/White",
+        "Black/White",
+        "Blue/Grey"
+      ],
+      "totalStock": 73,
+      "rating": 4.8,
+      "reviews": 289,
+      "featured": true,
+      "isNew": true,
+      "onSale": false,
+      "createdAt": "2025-01-11T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Adidas Samba OG",
+      "description": "The Adidas Samba OG brings iconic soccer style to the streets. Leather upper with suede T-toe overlay.",
+      "price": 100,
+      "originalPrice": 100,
+      "categoryId": 2,
+      "category": "Casual",
+      "brandId": 2,
+      "brand": "Adidas",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600",
+        "https://images.unsplash.com/photo-1603787081207-362bcef7c144?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 6
+        },
+        {
+          "size": "US 7",
+          "stock": 10
+        },
+        {
+          "size": "US 8",
+          "stock": 12
+        },
+        {
+          "size": "US 9",
+          "stock": 15
+        },
+        {
+          "size": "US 10",
+          "stock": 10
+        },
+        {
+          "size": "US 11",
+          "stock": 6
+        }
+      ],
+      "colors": [
+        "Black/White",
+        "White/Black",
+        "Navy/White"
+      ],
+      "totalStock": 59,
+      "rating": 4.7,
+      "reviews": 534,
+      "featured": true,
+      "isNew": true,
+      "onSale": false,
+      "createdAt": "2025-01-12T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Nike Dunk Low",
+      "description": "The Nike Dunk Low brings back the iconic hoops style. Padded collar and durable leather for lasting comfort.",
+      "price": 115,
+      "originalPrice": 115,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 5
+        },
+        {
+          "size": "US 7",
+          "stock": 8
+        },
+        {
+          "size": "US 8",
+          "stock": 10
+        },
+        {
+          "size": "US 9",
+          "stock": 12
+        },
+        {
+          "size": "US 10",
+          "stock": 8
+        },
+        {
+          "size": "US 11",
+          "stock": 5
+        }
+      ],
+      "colors": [
+        "Panda",
+        "University Red",
+        "Coast"
+      ],
+      "totalStock": 48,
+      "rating": 4.8,
+      "reviews": 678,
+      "featured": true,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-13T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Puma Suede Classic",
+      "description": "The Puma Suede Classic is a streetwear icon. Premium suede upper with signature formstrip and rubber outsole.",
+      "price": 75,
+      "originalPrice": 85,
+      "categoryId": 2,
+      "category": "Casual",
+      "brandId": 3,
+      "brand": "Puma",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 10
+        },
+        {
+          "size": "US 7",
+          "stock": 15
+        },
+        {
+          "size": "US 8",
+          "stock": 20
+        },
+        {
+          "size": "US 9",
+          "stock": 18
+        },
+        {
+          "size": "US 10",
+          "stock": 12
+        },
+        {
+          "size": "US 11",
+          "stock": 8
+        }
+      ],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "Red/White"
+      ],
+      "totalStock": 83,
+      "rating": 4.5,
+      "reviews": 389,
+      "featured": false,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-14T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Nike Air Jordan 1 Mid",
+      "description": "The Air Jordan 1 Mid brings legendary style with premium leather and iconic Wings logo. Encapsulated Air-Sole unit.",
+      "price": 125,
+      "originalPrice": 125,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Men",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 7",
+          "stock": 3
+        },
+        {
+          "size": "US 8",
+          "stock": 5
+        },
+        {
+          "size": "US 9",
+          "stock": 8
+        },
+        {
+          "size": "US 10",
+          "stock": 6
+        },
+        {
+          "size": "US 11",
+          "stock": 4
+        },
+        {
+          "size": "US 12",
+          "stock": 2
+        }
+      ],
+      "colors": [
+        "Chicago",
+        "Bred",
+        "Royal Blue"
+      ],
+      "totalStock": 28,
+      "rating": 4.9,
+      "reviews": 892,
+      "featured": true,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Adidas NMD_R1",
+      "description": "The Adidas NMD_R1 combines modern streetwear style with Boost technology for responsive comfort.",
+      "price": 150,
+      "originalPrice": 170,
+      "categoryId": 5,
+      "category": "Sneakers",
+      "brandId": 2,
+      "brand": "Adidas",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600",
+        "https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 8
+        },
+        {
+          "size": "US 7",
+          "stock": 12
+        },
+        {
+          "size": "US 8",
+          "stock": 15
+        },
+        {
+          "size": "US 9",
+          "stock": 12
+        },
+        {
+          "size": "US 10",
+          "stock": 8
+        },
+        {
+          "size": "US 11",
+          "stock": 5
+        }
+      ],
+      "colors": [
+        "Core Black",
+        "White/Red",
+        "Grey"
+      ],
+      "totalStock": 60,
+      "rating": 4.6,
+      "reviews": 445,
+      "featured": false,
+      "isNew": false,
+      "onSale": true,
+      "createdAt": "2025-01-16T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "Adidas Adilette Slides",
+      "description": "The iconic Adidas Adilette slides. Contoured footbed and bandage upper for post-workout comfort.",
+      "price": 35,
+      "originalPrice": 35,
+      "categoryId": 7,
+      "category": "Sandals",
+      "brandId": 2,
+      "brand": "Adidas",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 6",
+          "stock": 20
+        },
+        {
+          "size": "US 7",
+          "stock": 25
+        },
+        {
+          "size": "US 8",
+          "stock": 30
+        },
+        {
+          "size": "US 9",
+          "stock": 25
+        },
+        {
+          "size": "US 10",
+          "stock": 20
+        },
+        {
+          "size": "US 11",
+          "stock": 15
+        }
+      ],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "Red/White"
+      ],
+      "totalStock": 135,
+      "rating": 4.5,
+      "reviews": 567,
+      "featured": false,
+      "isNew": false,
+      "onSale": false,
+      "createdAt": "2025-01-19T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "name": "Nike Mercurial Superfly 9",
+      "description": "Dominate the pitch with Nike Mercurial Superfly 9. Flyknit upper and Zoom Air cushioning for explosive speed.",
+      "price": 275,
+      "originalPrice": 275,
+      "categoryId": 4,
+      "category": "Sports",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600"
+      ],
+      "sizes": [
+        {
+          "size": "US 7",
+          "stock": 3
+        },
+        {
+          "size": "US 8",
+          "stock": 5
+        },
+        {
+          "size": "US 9",
+          "stock": 8
+        },
+        {
+          "size": "US 10",
+          "stock": 6
+        },
+        {
+          "size": "US 11",
+          "stock": 4
+        },
+        {
+          "size": "US 12",
+          "stock": 2
+        }
+      ],
+      "colors": [
+        "Volt/Black",
+        "White/Blue",
+        "Black/Gold"
+      ],
+      "totalStock": 28,
+      "rating": 4.8,
+      "reviews": 123,
+      "featured": true,
+      "isNew": true,
+      "onSale": false,
+      "createdAt": "2025-01-20T00:00:00.000Z"
+    },
+    {
+      "name": "Nike Jordans",
+      "description": "Best product in the world",
+      "price": 250,
+      "originalPrice": 199,
+      "categoryId": 4,
+      "category": "Sports",
+      "brandId": 1,
+      "brand": "Nike",
+      "gender": "Unisex",
+      "images": [
+        "https://images.unsplash.com/photo-1611075893146-1bbb4078560f?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1611075760601-7c8d0bb90b6d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "sizes": [
+        {
+          "size": "US 5",
+          "stock": 10
+        },
+        {
+          "size": "US 6",
+          "stock": 20
+        },
+        {
+          "size": "US 7",
+          "stock": 50
+        },
+        {
+          "size": "US 8",
+          "stock": 60
+        },
+        {
+          "size": "US 9",
+          "stock": 40
+        },
+        {
+          "size": "US 10",
+          "stock": 30
+        },
+        {
+          "size": "US 11",
+          "stock": 30
+        },
+        {
+          "size": "US 12",
+          "stock": 10
+        },
+        {
+          "size": "US 1Y",
+          "stock": 20
+        },
+        {
+          "size": "US 2Y",
+          "stock": 10
+        },
+        {
+          "size": "US 3Y",
+          "stock": 30
+        },
+        {
+          "size": "US 4Y",
+          "stock": 10
+        },
+        {
+          "size": "US 5Y",
+          "stock": 10
+        },
+        {
+          "size": "US 6Y",
+          "stock": 10
+        }
+      ],
+      "colors": [
+        "Black/White",
+        "Yellow"
+      ],
+      "totalStock": 340,
+      "featured": false,
+      "isNew": true,
+      "onSale": false,
+      "rating": 0,
+      "reviews": 0,
+      "createdAt": "2026-01-06T13:09:35.814Z",
+      "id": 21
     }
   ],
   "orders": [
     {
       "id": 1,
       "orderNumber": "ORD-2025-0001",
-      "customerId": 1,
+      "userId": 2,
       "customerName": "John Doe",
-      "customerEmail": "john@example.com",
-      "status": "delivered",
-      "paymentMethod": "credit_card",
-      "paymentStatus": "paid",
+      "email": "john@example.com",
       "items": [
         {
           "productId": 1,
-          "name": "Classic Running Shoes",
-          "brand": "Nike",
-          "size": 10,
-          "color": "Black",
+          "name": "Nike Air Max 270",
+          "price": 150,
+          "size": "US 9",
+          "color": "Black/White",
           "quantity": 1,
-          "price": 89.99,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Running+Shoes"
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
         },
         {
-          "productId": 2,
-          "name": "Air Comfort Sneakers",
-          "brand": "Adidas",
-          "size": 9,
-          "color": "White",
-          "quantity": 1,
-          "price": 120.00,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Sneakers"
+          "productId": 5,
+          "name": "Converse Chuck Taylor All Star",
+          "price": 55,
+          "size": "US 8",
+          "color": "Black",
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600"
         }
       ],
-      "subtotal": 209.99,
-      "shippingCost": 10.00,
-      "tax": 19.80,
-      "total": 239.79,
+      "subtotal": 260,
+      "shipping": 10,
+      "tax": 27,
+      "total": 297,
+      "status": "delivered",
       "shippingAddress": {
-        "name": "John Doe",
         "street": "123 Main St",
-        "apartment": "Apt 4B",
         "city": "New York",
         "state": "NY",
         "zipCode": "10001",
-        "country": "USA",
-        "phone": "+1-555-0123"
+        "country": "USA"
       },
-      "billingAddress": {
-        "name": "John Doe",
-        "street": "123 Main St",
-        "apartment": "Apt 4B",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10001",
-        "country": "USA",
-        "phone": "+1-555-0123"
-      },
-      "trackingNumber": "TRK123456789",
-      "shippingCarrier": "FedEx",
-      "orderDate": "2025-12-10T15:30:00Z",
-      "estimatedDelivery": "2025-12-15T00:00:00Z",
-      "deliveredAt": "2025-12-14T16:20:00Z",
-      "notes": ""
+      "paymentMethod": "credit_card",
+      "paymentStatus": "paid",
+      "trackingNumber": "1Z999AA10123456784",
+      "createdAt": "2025-01-02T11:30:00.000Z",
+      "updatedAt": "2025-01-05T14:00:00.000Z"
     },
     {
       "id": 2,
       "orderNumber": "ORD-2025-0002",
-      "customerId": 2,
+      "userId": 3,
       "customerName": "Jane Smith",
-      "customerEmail": "jane@example.com",
-      "status": "shipped",
-      "paymentMethod": "paypal",
-      "paymentStatus": "paid",
+      "email": "jane@example.com",
       "items": [
         {
-          "productId": 3,
-          "name": "Professional Basketball Shoes",
-          "brand": "Jordan",
-          "size": 11,
-          "color": "Red",
+          "productId": 2,
+          "name": "Adidas Ultraboost 22",
+          "price": 190,
+          "size": "US 7",
+          "color": "Cloud White",
           "quantity": 1,
-          "price": 175.50,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Basketball"
+          "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600"
         }
       ],
-      "subtotal": 175.50,
-      "shippingCost": 10.00,
-      "tax": 16.70,
-      "total": 202.20,
+      "subtotal": 190,
+      "shipping": 0,
+      "tax": 19,
+      "total": 209,
+      "status": "shipped",
       "shippingAddress": {
-        "name": "Jane Smith",
         "street": "456 Oak Ave",
-        "apartment": "",
         "city": "Los Angeles",
         "state": "CA",
         "zipCode": "90001",
-        "country": "USA",
-        "phone": "+1-555-0124"
+        "country": "USA"
       },
-      "billingAddress": {
-        "name": "Jane Smith",
-        "street": "456 Oak Ave",
-        "apartment": "",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zipCode": "90001",
-        "country": "USA",
-        "phone": "+1-555-0124"
-      },
-      "trackingNumber": "TRK987654321",
-      "shippingCarrier": "UPS",
-      "orderDate": "2025-12-15T11:00:00Z",
-      "estimatedDelivery": "2025-12-20T00:00:00Z",
-      "notes": "Please leave at front door"
+      "paymentMethod": "paypal",
+      "paymentStatus": "paid",
+      "trackingNumber": "1Z999AA10123456785",
+      "createdAt": "2025-01-04T09:15:00.000Z",
+      "updatedAt": "2025-01-05T16:30:00.000Z"
     },
     {
       "id": 3,
       "orderNumber": "ORD-2025-0003",
-      "customerId": 1,
-      "customerName": "John Doe",
-      "customerEmail": "john@example.com",
-      "status": "pending",
-      "paymentMethod": "credit_card",
-      "paymentStatus": "pending",
+      "userId": 4,
+      "customerName": "Mike Johnson",
+      "email": "mike@example.com",
       "items": [
         {
-          "productId": 4,
-          "name": "Trail Hiking Boots",
-          "brand": "Columbia",
-          "size": 10,
-          "color": "Brown",
+          "productId": 7,
+          "name": "Timberland 6-Inch Premium Boot",
+          "price": 198,
+          "size": "US 10",
+          "color": "Wheat",
           "quantity": 1,
-          "price": 140.00,
-          "thumbnail": "https://via.placeholder.com/300x300?text=Hiking+Boots"
+          "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=600"
+        },
+        {
+          "productId": 6,
+          "name": "Vans Old Skool",
+          "price": 70,
+          "size": "US 10",
+          "color": "Black/White",
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600"
         }
       ],
-      "subtotal": 140.00,
-      "shippingCost": 10.00,
-      "tax": 13.50,
-      "total": 163.50,
+      "subtotal": 268,
+      "shipping": 0,
+      "tax": 26.8,
+      "total": 294.8,
+      "status": "processing",
       "shippingAddress": {
-        "name": "John Doe",
-        "street": "456 Business Ave",
-        "apartment": "Suite 200",
-        "city": "New York",
-        "state": "NY",
-        "zipCode": "10002",
-        "country": "USA",
-        "phone": "+1-555-0123"
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
       },
-      "billingAddress": {
-        "name": "John Doe",
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "trackingNumber": null,
+      "createdAt": "2025-01-05T14:45:00.000Z",
+      "updatedAt": "2025-01-05T14:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "orderNumber": "ORD-2025-0004",
+      "userId": 2,
+      "customerName": "John Doe",
+      "email": "john@example.com",
+      "items": [
+        {
+          "productId": 15,
+          "name": "Nike Air Jordan 1 Mid",
+          "price": 125,
+          "size": "US 9",
+          "color": "Chicago",
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600"
+        }
+      ],
+      "subtotal": 125,
+      "shipping": 10,
+      "tax": 13.5,
+      "total": 148.5,
+      "status": "pending",
+      "shippingAddress": {
         "street": "123 Main St",
-        "apartment": "Apt 4B",
         "city": "New York",
         "state": "NY",
         "zipCode": "10001",
-        "country": "USA",
-        "phone": "+1-555-0123"
+        "country": "USA"
       },
-      "orderDate": "2025-12-18T10:15:00Z",
-      "notes": ""
+      "paymentMethod": "credit_card",
+      "paymentStatus": "pending",
+      "trackingNumber": null,
+      "createdAt": "2025-01-06T16:20:00.000Z",
+      "updatedAt": "2025-01-06T16:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "orderNumber": "ORD-2025-0005",
+      "userId": 3,
+      "customerName": "Jane Smith",
+      "email": "jane@example.com",
+      "items": [
+        {
+          "productId": 11,
+          "name": "Nike Zoom Pegasus 40",
+          "price": 130,
+          "size": "US 7",
+          "color": "Pink/White",
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600"
+        },
+        {
+          "productId": 9,
+          "name": "Adidas Stan Smith",
+          "price": 85,
+          "size": "US 7",
+          "color": "White/Green",
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600"
+        }
+      ],
+      "subtotal": 215,
+      "shipping": 0,
+      "tax": 21.5,
+      "total": 236.5,
+      "status": "pending",
+      "shippingAddress": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA"
+      },
+      "paymentMethod": "paypal",
+      "paymentStatus": "refunded",
+      "trackingNumber": null,
+      "createdAt": "2025-01-06T18:00:00.000Z",
+      "updatedAt": "2025-01-06T18:00:00.000Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 8
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "productId": 15
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "productId": 11
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "productId": 12
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "productId": 7
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "productId": 13
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userId": 2,
+      "items": [
+        {
+          "productId": 12,
+          "name": "Adidas Samba OG",
+          "price": 100,
+          "size": "US 9",
+          "color": "Black/White",
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600"
+        }
+      ],
+      "subtotal": 100,
+      "updatedAt": "2026-01-06T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "items": [
+        {
+          "productId": 8,
+          "name": "Nike Air Force 1 '07",
+          "price": 110,
+          "size": "US 7",
+          "color": "White",
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=600"
+        }
+      ],
+      "subtotal": 220,
+      "updatedAt": "2026-01-06T08:45:00Z"
+    }
+  ],
+  "stockOrders": [
+    {
+      "id": 1,
+      "productId": 15,
+      "productName": "Nike Air Jordan 1 Mid",
+      "quantity": 50,
+      "supplier": "Nike Distribution Center",
+      "status": "pending",
+      "estimatedDelivery": "2025-01-15T00:00:00.000Z",
+      "createdAt": "2025-01-06T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "productId": 13,
+      "productName": "Nike Dunk Low",
+      "quantity": 40,
+      "supplier": "Nike Distribution Center",
+      "status": "shipped",
+      "estimatedDelivery": "2025-01-10T00:00:00.000Z",
+      "createdAt": "2025-01-04T09:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "productId": 7,
+      "productName": "Timberland 6-Inch Premium Boot",
+      "quantity": 30,
+      "supplier": "Timberland Warehouse",
+      "status": "delivered",
+      "estimatedDelivery": "2025-01-05T00:00:00.000Z",
+      "createdAt": "2025-01-01T11:00:00.000Z"
     }
   ],
   "reviews": [
     {
       "id": 1,
       "productId": 1,
-      "customerId": 1,
-      "customerName": "John Doe",
+      "userId": 2,
+      "userName": "John Doe",
       "rating": 5,
-      "title": "Excellent running shoes!",
-      "comment": "Very comfortable for long runs. The cushioning is amazing and they feel very light. Highly recommend for serious runners!",
-      "helpful": 8,
-      "notHelpful": 1,
+      "title": "Best running shoes ever!",
+      "comment": "Super comfortable and stylish. The Air Max cushioning is amazing for all-day wear.",
       "verified": true,
-      "createdAt": "2025-12-11T10:30:00Z"
+      "createdAt": "2025-01-06T12:00:00.000Z"
     },
     {
       "id": 2,
       "productId": 1,
-      "customerId": 2,
-      "customerName": "Jane Smith",
+      "userId": 3,
+      "userName": "Jane Smith",
       "rating": 4,
-      "title": "Good quality",
-      "comment": "Nice shoes but sizing runs a bit small. Order half size up.",
-      "helpful": 5,
-      "notHelpful": 0,
+      "title": "Great shoes, runs a bit small",
+      "comment": "Love the design and comfort. Order half size up for best fit.",
       "verified": true,
-      "createdAt": "2025-12-12T14:15:00Z"
+      "createdAt": "2025-01-05T15:30:00.000Z"
     },
     {
       "id": 3,
       "productId": 2,
-      "customerId": 2,
-      "customerName": "Jane Smith",
+      "userId": 4,
+      "userName": "Mike Johnson",
       "rating": 5,
-      "title": "Love these sneakers!",
-      "comment": "Perfect for everyday wear. Very stylish and comfortable. Get lots of compliments!",
-      "helpful": 12,
-      "notHelpful": 0,
+      "title": "Worth every penny",
+      "comment": "The Boost technology is incredible. My feet feel great even after long runs.",
       "verified": true,
-      "createdAt": "2025-12-13T09:20:00Z"
+      "createdAt": "2025-01-06T09:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "productId": 8,
+      "userId": 2,
+      "userName": "John Doe",
+      "rating": 5,
+      "title": "Classic never goes out of style",
+      "comment": "Clean, versatile, and comfortable. Goes with everything!",
+      "verified": true,
+      "createdAt": "2025-01-04T10:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "productId": 7,
+      "userId": 4,
+      "userName": "Mike Johnson",
+      "rating": 5,
+      "title": "Built to last",
+      "comment": "Sturdy, waterproof, and incredibly comfortable. Perfect for winter.",
+      "verified": true,
+      "createdAt": "2025-01-03T14:00:00.000Z"
     }
   ],
-  "inventoryLog": [
+  "coupons": [
     {
       "id": 1,
-      "productId": 1,
-      "action": "restock",
-      "size": 10,
-      "quantity": 10,
-      "previousStock": 10,
-      "newStock": 20,
-      "reason": "Regular restock",
-      "adminId": 1,
-      "adminName": "Store Admin",
-      "createdAt": "2025-12-15T10:30:00Z"
+      "code": "WELCOME10",
+      "type": "percentage",
+      "value": 10,
+      "minPurchase": 50,
+      "maxDiscount": 25,
+      "usageLimit": 1000,
+      "usedCount": 234,
+      "active": true,
+      "expiresAt": "2025-12-31T23:59:59.000Z"
     },
     {
       "id": 2,
-      "productId": 1,
-      "action": "sale",
-      "size": 10,
-      "quantity": -1,
-      "previousStock": 20,
-      "newStock": 19,
-      "reason": "Order #ORD-2025-0001",
-      "orderId": 1,
-      "createdAt": "2025-12-10T15:30:00Z"
+      "code": "SAVE20",
+      "type": "percentage",
+      "value": 20,
+      "minPurchase": 100,
+      "maxDiscount": 50,
+      "usageLimit": 500,
+      "usedCount": 156,
+      "active": true,
+      "expiresAt": "2025-06-30T23:59:59.000Z"
+    },
+    {
+      "id": 3,
+      "code": "FREESHIP",
+      "type": "free_shipping",
+      "value": 0,
+      "minPurchase": 75,
+      "maxDiscount": null,
+      "usageLimit": null,
+      "usedCount": 892,
+      "active": true,
+      "expiresAt": "2025-12-31T23:59:59.000Z"
+    },
+    {
+      "id": 4,
+      "code": "FLAT25",
+      "type": "fixed",
+      "value": 25,
+      "minPurchase": 150,
+      "maxDiscount": 25,
+      "usageLimit": 200,
+      "usedCount": 89,
+      "active": true,
+      "expiresAt": "2025-03-31T23:59:59.000Z"
     }
   ],
   "notifications": [
@@ -538,19 +2415,50 @@
       "recipientType": "admin",
       "recipientId": 1,
       "title": "New Order Received",
-      "message": "Order #ORD-2025-0003 has been placed",
+      "message": "Order #ORD-2025-0005 has been placed by Jane Smith",
       "data": {
-        "orderId": 3,
-        "orderNumber": "ORD-2025-0003"
+        "orderId": 5,
+        "orderNumber": "ORD-2025-0005",
+        "total": 236.5
       },
       "isRead": false,
-      "createdAt": "2025-12-18T10:15:00Z"
+      "createdAt": "2025-01-06T18:00:00.000Z"
     },
     {
       "id": 2,
       "type": "order",
-      "recipientType": "customer",
+      "recipientType": "admin",
       "recipientId": 1,
+      "title": "New Order Received",
+      "message": "Order #ORD-2025-0004 has been placed by John Doe",
+      "data": {
+        "orderId": 4,
+        "orderNumber": "ORD-2025-0004",
+        "total": 148.5
+      },
+      "isRead": false,
+      "createdAt": "2025-01-06T16:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "type": "low_stock",
+      "recipientType": "admin",
+      "recipientId": 1,
+      "title": "Low Stock Alert",
+      "message": "Nike Air Jordan 1 Mid is running low (28 units)",
+      "data": {
+        "productId": 15,
+        "productName": "Nike Air Jordan 1 Mid",
+        "currentStock": 28
+      },
+      "isRead": true,
+      "createdAt": "2025-01-06T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "type": "order",
+      "recipientType": "customer",
+      "recipientId": 2,
       "title": "Order Delivered",
       "message": "Your order #ORD-2025-0001 has been delivered",
       "data": {
@@ -558,7 +2466,60 @@
         "orderNumber": "ORD-2025-0001"
       },
       "isRead": true,
-      "createdAt": "2025-12-14T16:20:00Z"
+      "createdAt": "2025-01-05T14:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "type": "order",
+      "recipientType": "customer",
+      "recipientId": 3,
+      "title": "Order Shipped",
+      "message": "Your order #ORD-2025-0002 has been shipped",
+      "data": {
+        "orderId": 2,
+        "orderNumber": "ORD-2025-0002",
+        "trackingNumber": "1Z999AA10123456785"
+      },
+      "isRead": false,
+      "createdAt": "2025-01-05T16:30:00.000Z"
+    }
+  ],
+  "inventoryLog": [
+    {
+      "id": 1,
+      "productId": 1,
+      "action": "sale",
+      "size": "US 9",
+      "quantity": -1,
+      "previousStock": 21,
+      "newStock": 20,
+      "reason": "Order #ORD-2025-0001",
+      "orderId": 1,
+      "createdAt": "2025-01-02T11:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "productId": 5,
+      "action": "sale",
+      "size": "US 8",
+      "quantity": -2,
+      "previousStock": 27,
+      "newStock": 25,
+      "reason": "Order #ORD-2025-0001",
+      "orderId": 1,
+      "createdAt": "2025-01-02T11:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "productId": 7,
+      "action": "restock",
+      "size": null,
+      "quantity": 30,
+      "previousStock": 30,
+      "newStock": 60,
+      "reason": "Stock Order #1",
+      "orderId": null,
+      "createdAt": "2025-01-05T00:00:00.000Z"
     }
   ]
 }
