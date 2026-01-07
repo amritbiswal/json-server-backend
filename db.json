@@ -2156,7 +2156,7 @@
       "shipping": 0,
       "tax": 21.5,
       "total": 236.5,
-      "status": "pending",
+      "status": "processing",
       "shippingAddress": {
         "street": "456 Oak Ave",
         "city": "Los Angeles",
@@ -2165,10 +2165,11 @@
         "country": "USA"
       },
       "paymentMethod": "paypal",
-      "paymentStatus": "refunded",
+      "paymentStatus": "pending",
       "trackingNumber": null,
       "createdAt": "2025-01-06T18:00:00.000Z",
-      "updatedAt": "2025-01-06T18:00:00.000Z"
+      "updatedAt": "2026-01-07T08:48:39.348Z",
+      "notes": ""
     }
   ],
   "favorites": [
