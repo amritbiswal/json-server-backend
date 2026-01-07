@@ -844,7 +844,11 @@
       "role": "admin",
       "phone": "1234567890",
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "favorites": []
+      "favorites": [
+        2,
+        3,
+        4
+      ]
     },
     {
       "id": 2,
@@ -854,7 +858,10 @@
       "password": "john123",
       "role": "customer",
       "phone": "9876543210",
-      "favorites": [],
+      "favorites": [
+        2,
+        21
+      ],
       "address": {
         "street": "123 Main St",
         "city": "New York",
@@ -872,7 +879,10 @@
       "password": "jane123",
       "role": "customer",
       "phone": "5551234567",
-      "favorites": [],
+      "favorites": [
+        21,
+        20
+      ],
       "address": {
         "street": "456 Oak Ave",
         "city": "Los Angeles",
@@ -1854,7 +1864,6 @@
       "createdAt": "2025-01-19T00:00:00.000Z"
     },
     {
-      "id": 20,
       "name": "Nike Mercurial Superfly 9",
       "description": "Dominate the pitch with Nike Mercurial Superfly 9. Flyknit upper and Zoom Air cushioning for explosive speed.",
       "price": 275,
@@ -1899,12 +1908,13 @@
         "Black/Gold"
       ],
       "totalStock": 28,
-      "rating": 4.8,
-      "reviews": 123,
       "featured": true,
       "isNew": true,
       "onSale": false,
-      "createdAt": "2025-01-20T00:00:00.000Z"
+      "rating": 4.8,
+      "reviews": 123,
+      "createdAt": "2025-01-20T00:00:00.000Z",
+      "id": 20
     },
     {
       "name": "Nike Jordans",
@@ -1990,6 +2000,59 @@
       "reviews": 0,
       "createdAt": "2026-01-06T13:09:35.814Z",
       "id": 21
+    },
+    {
+      "name": "test_new_product",
+      "description": "This is a fake description",
+      "price": 20,
+      "originalPrice": 50,
+      "categoryId": 3,
+      "category": "Formal",
+      "brandId": 5,
+      "brand": "Reebok",
+      "gender": "Men",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1747851577288-c75149e91e1a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
+        "https://res.cloudinary.com/dpsircfos/image/upload/v1767785860/iusupfporvdzndpojlxu.jpg"
+      ],
+      "sizes": [
+        {
+          "size": "US 5",
+          "stock": 6
+        },
+        {
+          "size": "US 6",
+          "stock": 5
+        },
+        {
+          "size": "US 7",
+          "stock": 0
+        },
+        {
+          "size": "US 8",
+          "stock": 0
+        },
+        {
+          "size": "US 9",
+          "stock": 0
+        },
+        {
+          "size": "US 10",
+          "stock": 0
+        }
+      ],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "totalStock": 11,
+      "featured": false,
+      "isNew": true,
+      "onSale": true,
+      "rating": 0,
+      "reviews": 0,
+      "createdAt": "2026-01-07T09:12:10.037Z",
+      "id": 22
     }
   ],
   "orders": [
@@ -2286,7 +2349,7 @@
       "productName": "Nike Dunk Low",
       "quantity": 40,
       "supplier": "Nike Distribution Center",
-      "status": "shipped",
+      "status": "approved",
       "estimatedDelivery": "2025-01-10T00:00:00.000Z",
       "createdAt": "2025-01-04T09:30:00.000Z"
     },
