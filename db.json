@@ -865,7 +865,10 @@
       "password": "john123",
       "role": "customer",
       "phone": "9876543210",
-      "favorites": [2, 21],
+      "favorites": [
+        2,
+        21
+      ],
       "address": {
         "street": "123 Main St",
         "city": "New York",
@@ -931,9 +934,9 @@
       },
       "createdAt": "2025-01-15T09:15:00.000Z",
       "favorites": [
-        2,
         3,
-        4
+        4,
+        1
       ]
     },
     {
@@ -944,6 +947,7 @@
       "phone": "+4917655385651",
       "address": null,
       "role": "customer",
+      "favorites": [],
       "createdAt": "2026-01-06T16:46:24.435Z",
       "id": 6
     }
@@ -991,7 +995,11 @@
           "stock": 5
         }
       ],
-      "colors": ["Black/White", "Red/Black", "Blue/White"],
+      "colors": [
+        "Black/White",
+        "Red/Black",
+        "Blue/White"
+      ],
       "totalStock": 70,
       "rating": 4.7,
       "reviews": 342,
@@ -1041,7 +1049,11 @@
           "stock": 4
         }
       ],
-      "colors": ["Core Black", "Cloud White", "Grey"],
+      "colors": [
+        "Core Black",
+        "Cloud White",
+        "Grey"
+      ],
       "totalStock": 55,
       "rating": 4.8,
       "reviews": 256,
@@ -1091,7 +1103,11 @@
           "stock": 5
         }
       ],
-      "colors": ["White/Blue", "Black/Red", "Grey/Yellow"],
+      "colors": [
+        "White/Blue",
+        "Black/Red",
+        "Grey/Yellow"
+      ],
       "totalStock": 55,
       "rating": 4.5,
       "reviews": 189,
@@ -1141,7 +1157,11 @@
           "stock": 8
         }
       ],
-      "colors": ["Grey/Navy", "Black", "Burgundy"],
+      "colors": [
+        "Grey/Navy",
+        "Black",
+        "Burgundy"
+      ],
       "totalStock": 98,
       "rating": 4.6,
       "reviews": 423,
@@ -1199,7 +1219,12 @@
           "stock": 5
         }
       ],
-      "colors": ["Black", "White", "Red", "Navy"],
+      "colors": [
+        "Black",
+        "White",
+        "Red",
+        "Navy"
+      ],
       "totalStock": 120,
       "rating": 4.7,
       "reviews": 892,
@@ -1249,7 +1274,11 @@
           "stock": 10
         }
       ],
-      "colors": ["Black/White", "Navy/White", "All Black"],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "All Black"
+      ],
       "totalStock": 97,
       "rating": 4.6,
       "reviews": 654,
@@ -1299,7 +1328,11 @@
           "stock": 5
         }
       ],
-      "colors": ["Wheat", "Black", "Brown"],
+      "colors": [
+        "Wheat",
+        "Black",
+        "Brown"
+      ],
       "totalStock": 60,
       "rating": 4.8,
       "reviews": 312,
@@ -1353,7 +1386,11 @@
           "stock": 10
         }
       ],
-      "colors": ["White", "Black", "White/Black"],
+      "colors": [
+        "White",
+        "Black",
+        "White/Black"
+      ],
       "totalStock": 115,
       "rating": 4.9,
       "reviews": 1024,
@@ -1407,7 +1444,11 @@
           "stock": 8
         }
       ],
-      "colors": ["White/Green", "White/Navy", "All White"],
+      "colors": [
+        "White/Green",
+        "White/Navy",
+        "All White"
+      ],
       "totalStock": 98,
       "rating": 4.7,
       "reviews": 756,
@@ -1457,7 +1498,11 @@
           "stock": 8
         }
       ],
-      "colors": ["White", "Black", "Grey"],
+      "colors": [
+        "White",
+        "Black",
+        "Grey"
+      ],
       "totalStock": 78,
       "rating": 4.5,
       "reviews": 423,
@@ -1507,7 +1552,11 @@
           "stock": 8
         }
       ],
-      "colors": ["Pink/White", "Black/White", "Blue/Grey"],
+      "colors": [
+        "Pink/White",
+        "Black/White",
+        "Blue/Grey"
+      ],
       "totalStock": 73,
       "rating": 4.8,
       "reviews": 289,
@@ -1557,7 +1606,11 @@
           "stock": 6
         }
       ],
-      "colors": ["Black/White", "White/Black", "Navy/White"],
+      "colors": [
+        "Black/White",
+        "White/Black",
+        "Navy/White"
+      ],
       "totalStock": 59,
       "rating": 4.7,
       "reviews": 534,
@@ -1607,7 +1660,11 @@
           "stock": 5
         }
       ],
-      "colors": ["Panda", "University Red", "Coast"],
+      "colors": [
+        "Panda",
+        "University Red",
+        "Coast"
+      ],
       "totalStock": 48,
       "rating": 4.8,
       "reviews": 678,
@@ -1657,7 +1714,11 @@
           "stock": 8
         }
       ],
-      "colors": ["Black/White", "Navy/White", "Red/White"],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "Red/White"
+      ],
       "totalStock": 83,
       "rating": 4.5,
       "reviews": 389,
@@ -1707,7 +1768,11 @@
           "stock": 2
         }
       ],
-      "colors": ["Chicago", "Bred", "Royal Blue"],
+      "colors": [
+        "Chicago",
+        "Bred",
+        "Royal Blue"
+      ],
       "totalStock": 28,
       "rating": 4.9,
       "reviews": 892,
@@ -1757,7 +1822,11 @@
           "stock": 5
         }
       ],
-      "colors": ["Core Black", "White/Red", "Grey"],
+      "colors": [
+        "Core Black",
+        "White/Red",
+        "Grey"
+      ],
       "totalStock": 60,
       "rating": 4.6,
       "reviews": 445,
@@ -1806,7 +1875,11 @@
           "stock": 15
         }
       ],
-      "colors": ["Black/White", "Navy/White", "Red/White"],
+      "colors": [
+        "Black/White",
+        "Navy/White",
+        "Red/White"
+      ],
       "totalStock": 135,
       "rating": 4.5,
       "reviews": 567,
@@ -1854,7 +1927,11 @@
           "stock": 2
         }
       ],
-      "colors": ["Volt/Black", "White/Blue", "Black/Gold"],
+      "colors": [
+        "Volt/Black",
+        "White/Blue",
+        "Black/Gold"
+      ],
       "totalStock": 28,
       "featured": true,
       "isNew": true,
@@ -1936,7 +2013,10 @@
           "stock": 10
         }
       ],
-      "colors": ["Black/White", "Yellow"],
+      "colors": [
+        "Black/White",
+        "Yellow"
+      ],
       "totalStock": 340,
       "featured": false,
       "isNew": true,
@@ -1987,7 +2067,10 @@
           "stock": 0
         }
       ],
-      "colors": ["Black", "Red"],
+      "colors": [
+        "Black",
+        "Red"
+      ],
       "totalStock": 11,
       "featured": false,
       "isNew": true,
