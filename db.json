@@ -843,12 +843,19 @@
       "password": "admin123",
       "role": "admin",
       "phone": "1234567890",
-      "createdAt": "2025-01-01T00:00:00.000Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
       "favorites": [
         2,
         3,
         4
-      ]
+      ],
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      }
     },
     {
       "id": 2,
@@ -869,15 +876,29 @@
         "zipCode": "10001",
         "country": "USA"
       },
-      "createdAt": "2025-01-05T10:30:00.000Z"
+      "createdAt": "2026-01-05T10:30:00.000Z"
     },
     {
+      "id": 3,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@example.com",
+      "password": "jane123",
+      "role": "customer",
+      "phone": "5551234567",
       "favorites": [
-        21,
-        20,
-        3
+        1,
+        4,
+        5
       ],
-      "id": 3
+      "address": {
+        "street": "123 Broadway Ave",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": "2025-01-06T10:30:00.000Z"
     },
     {
       "id": 4,
@@ -898,8 +919,25 @@
       "createdAt": "2025-01-15T09:15:00.000Z"
     },
     {
-      "favorites": [],
-      "id": 5
+      "id": 5,
+      "firstName": "Maxime",
+      "lastName": "Ducamp",
+      "email": "maxime@example.com",
+      "role": "customer",
+      "phone": "+452122345634",
+      "address": {
+        "street": "Random Street 123",
+        "city": "Masse",
+        "state": "Masse",
+        "zipCode": "234123",
+        "country": "France"
+      },
+      "createdAt": "2025-01-15T09:15:00.000Z",
+      "favorites": [
+        2,
+        3,
+        4
+      ]
     },
     {
       "firstName": "Amrit",
@@ -912,13 +950,6 @@
       "favorites": [],
       "createdAt": "2026-01-06T16:46:24.435Z",
       "id": 6
-    },
-    {
-      "favorites": [
-        2,
-        3
-      ],
-      "id": 7
     }
   ],
   "products": [
